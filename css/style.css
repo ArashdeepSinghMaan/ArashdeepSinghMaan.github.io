@@ -219,5 +219,44 @@ form input, form textarea {
 .tutorial-links a:hover {
   text-decoration: underline;
 }
+.social-profiles {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.social-profiles li {
+  display: flex;
+  align-items: center;
+}
+
+.social-profiles a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #0ea5e9; /* sky blue */
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.social-profiles a:hover {
+  color: #0284c7;
+}
+
+.social-profiles img {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.social-profiles a:hover img {
+  transform: scale(1.1);
+}
 
 
