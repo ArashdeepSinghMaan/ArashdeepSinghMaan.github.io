@@ -40,6 +40,51 @@
     nav a:hover {
       background-color: #555;
     }
+    /* Dropdown Styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #444;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #555;
+}
+
     main {
       max-width: 900px;
       margin: 2rem auto;
@@ -102,7 +147,16 @@
     <!-- Navigation links to individual pages -->
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
-    <a href="https://arashdeepsinghmaan.github.io/simulation_gazebo/">Education</a>
+   <div class="dropdown">
+    <button class="dropbtn">Education</button>
+    <div class="dropdown-content">
+    <a href="https://arashdeepsinghmaan.github.io/simulation_gazebo/">Simulation & Gazebo</a>
+    <a href="https://arashdeepsinghmaan.github.io/robotics_basics/">Robotics Basics</a>
+    <a href="https://arashdeepsinghmaan.github.io/ml_course/">ML Course</a>
+    <!-- Add more links as needed -->
+  </div>
+</div>
+
     <a href="skills.html">Skills</a>
     <a href="projects.html">Projects</a>
     <a href="experience.html">Experience</a>
