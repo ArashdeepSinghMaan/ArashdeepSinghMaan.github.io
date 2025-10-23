@@ -38,82 +38,202 @@
   </nav>
 
   <main>
-    <section id="home">
-      <h2>My Projects</h2>
-      
+   <main>
+  <section id="projects">
+    <h2>My Projects</h2>
+    <p>Here’s a selection of my robotics, AI/ML, and embedded systems projects that reflect my expertise in simulation, control systems, and intelligent autonomy.</p>
+
+    <!-- Project 1 -->
     <article class="project">
-      <h3><a href="https://github.com/ArashdeepSinghMaan/Development-of-Multi-Agent-Coordination-and-Control-for-Surface-and-Underwater-Vehicles" target="_blank">Multi-Agent Coordination for Surface & Underwater Vehicles</a></h3>
+      <h3>
+        <a href="https://github.com/ArashdeepSinghMaan/Development-of-Multi-Agent-Coordination-and-Control-for-Surface-and-Underwater-Vehicles" target="_blank">
+          Multi-Agent Coordination for Surface & Underwater Vehicles
+        </a>
+      </h3>
       <p><strong>Date:</strong> April 2025</p>
       <ul>
-        <li>🔧 Modeling and control of AUV and ASV with obstacle avoidance</li>
-        <li>🧠 Multi-agent architecture with task switching and priority allocation</li>
-        <li>📡 Inter-agent communication and autonomous navigation</li>
-        <li>🔬 Hardware development and dual-environment deployment</li>
+        <li>🤖 Developed leader–follower architecture for Autonomous Surface Vehicle (ASV) and Autonomous Underwater Vehicle (AUV).</li>
+        <li>🌊 Implemented trajectory tracking, obstacle avoidance, and underwater–surface communication using ROS2.</li>
+        <li>⚙️ Designed cascaded feedback linearization controllers for underactuated dynamics in Gazebo simulation.</li>
+        <li>🛰️ Integrated IMU, depth, and GPS sensors for multi-agent coordination.</li>
       </ul>
     </article>
 
+    <!-- Project 2 -->
     <article class="project">
-      <h3><a href="https://github.com/ArashdeepSinghMaan/Bin-Picking" target="_blank">Robot Arm Bin Picking using YOLOv5, Depth Camera & ROS2</a></h3>
-      <p>An integrated robotic bin-picking system using computer vision and ROS2. Combines YOLO for detection, PCL for 3D orientation, GPD for grasping, and MoveIt for motion planning.</p>
-    </article>
-
-    <article class="project">
-      <h3><a href="https://github.com/ArashdeepSinghMaan/Machine-Learning/tree/main/Designing%20a%20Light-Weight%20CNN%20based%20Model%20%20for%20Crop%20Disease%20Detection" target="_blank">Lightweight CNN for Crop Disease Detection</a></h3>
-      <p>Designed a MobileNetV3-inspired neural network for disease detection on mobile/edge devices in agricultural fields.</p>
-    </article>
-
-    <article class="project">
-      <h3><a href="https://github.com/ArashdeepSinghMaan/Robot-Operating-System/tree/PERCEPTION-OF-UNKNOWN-ENVIRONMENT-%2CPATH-PLANNING%2COBSTACLE-AVOIDANCE-AND-AUTONOMOUS-NAVIGATION" target="_blank">Autonomous Navigation with Perception and Obstacle Avoidance</a></h3>
-      <p>Simulated a campus in Gazebo for robot-based mapping, path planning, and navigation in changing environments.</p>
-    </article>
-
-    <article class="project">
-      <h3><a href="https://github.com/ArashdeepSinghMaan/Leader-Follower-Formation-Control" target="_blank">Leader-Follower Formation Control of Mobile Robots</a></h3>
+      <h3>
+        <a href="https://github.com/ArashdeepSinghMaan/CascadedAUVController" target="_blank">
+          Cascaded Feedback Linearization Controller for AUV
+        </a>
+      </h3>
+      <p>Implemented a cascaded PID and feedback linearization-based control for underactuated AUV in ROS2, managing surge, pitch, and yaw motions with stability guarantees.</p>
       <ul>
-        <li>📐 Modeled WMR kinematics and formation strategies</li>
-        <li>📊 Implemented Lyapunov-based control for line and circular formations</li>
-        <li>🧪 Simulated using MATLAB</li>
+        <li>🧠 Integrated outer-loop PID with inner-loop FBL control for precise trajectory tracking.</li>
+        <li>🧩 Developed custom ROS2 node for real-time control using Gazebo simulation.</li>
       </ul>
     </article>
 
+    <!-- Project 3 -->
     <article class="project">
-      <h3><a href="https://github.com/ArashdeepSinghMaan/Embedded-System-Design/tree/Voice-Controlled-Smart-Home-Automation-System-with-Sensor-Integration" target="_blank">Voice-Controlled Smart Home System</a></h3>
-      <p>Created an intelligent Arduino-based home automation system with voice recognition and environmental sensor integration using TensorFlow Lite.</p>
+      <h3>
+        <a href="https://github.com/ArashdeepSinghMaan/Bin-Picking" target="_blank">
+          Bin Picking using YOLOv5, Depth Camera & ROS2
+        </a>
+      </h3>
+      <p>An integrated robotic bin-picking system using AI-based object detection and ROS2 motion planning.</p>
+      <ul>
+        <li>🧠 Used YOLOv5 for object detection and Point Cloud Library (PCL) for pose estimation.</li>
+        <li>🦾 Integrated GPD (Grasp Pose Detection) with MoveIt2 for grasp planning and execution.</li>
+        <li>🪄 Designed modular ROS2 nodes for perception, planning, and control layers.</li>
+      </ul>
     </article>
 
+    <!-- Project 4 -->
     <article class="project">
-      <h3><a href="https://github.com/ArashdeepSinghMaan/-Underwater-Pipeline-Detection-using-computer-vision/tree/main" target="_blank">Underwater Pipeline Detection using Computer Vision</a></h3>
-      <p>Developed an accurate detection pipeline using LAB conversion, Gaussian blur, Canny edge detection, and Hough transform.</p>
+      <h3>
+        <a href="https://github.com/ArashdeepSinghMaan/Robot-Operating-System/tree/PERCEPTION-OF-UNKNOWN-ENVIRONMENT-%2CPATH-PLANNING%2COBSTACLE-AVOIDANCE-AND-AUTONOMOUS-NAVIGATION" target="_blank">
+          Autonomous Navigation with Perception and Obstacle Avoidance
+        </a>
+      </h3>
+      <p>Built a complete navigation pipeline in Gazebo with mapping, localization, and path planning using ROS2 and Nav2.</p>
+      <ul>
+        <li>📍 Simulated realistic campus environments with dynamic obstacles.</li>
+        <li>🚗 Implemented SLAM, costmaps, and DWA local planners.</li>
+        <li>📡 Adapted Nav2 framework for differential-drive and drone-like motion.</li>
+      </ul>
     </article>
+
+    <!-- Project 5 -->
+    <article class="project">
+      <h3>
+        <a href="https://github.com/ArashdeepSinghMaan/Leader-Follower-Formation-Control" target="_blank">
+          Leader–Follower Formation Control of Mobile Robots
+        </a>
+      </h3>
+      <ul>
+        <li>📐 Modeled WMR kinematics for line and circular formations using Lyapunov-based control laws.</li>
+        <li>🧪 Implemented control algorithms in MATLAB for multi-robot simulation.</li>
+        <li>📊 Demonstrated robustness against dynamic disturbances and delays.</li>
+      </ul>
+    </article>
+
+    <!-- Project 6 -->
+    <article class="project">
+      <h3>
+        <a href="https://github.com/ArashdeepSinghMaan/Embedded-System-Design/tree/Voice-Controlled-Smart-Home-Automation-System-with-Sensor-Integration" target="_blank">
+          Voice-Controlled Smart Home Automation
+        </a>
+      </h3>
+      <p>Developed an IoT-based home automation system with TensorFlow Lite-based voice recognition and sensor integration.</p>
+      <ul>
+        <li>🎙️ Enabled real-time control of appliances via voice commands.</li>
+        <li>🌡️ Integrated temperature, gas, and motion sensors for intelligent automation.</li>
+        <li>💡 Built using Arduino, Bluetooth, and embedded C++.</li>
+      </ul>
+    </article>
+
+    <!-- Project 7 -->
+    <article class="project">
+      <h3>
+        <a href="https://github.com/ArashdeepSinghMaan/-Underwater-Pipeline-Detection-using-computer-vision/tree/main" target="_blank">
+          Underwater Pipeline Detection using Computer Vision
+        </a>
+      </h3>
+      <p>Designed a computer vision pipeline for underwater inspection tasks.</p>
+      <ul>
+        <li>🔍 Used LAB color space, Gaussian blur, Canny edge detection, and Hough Transform for robust detection.</li>
+        <li>💧 Optimized for low-light and noisy underwater imagery.</li>
+      </ul>
+    </article>
+
+    <!-- Project 8 -->
+    <article class="project">
+      <h3>
+        <a href="https://github.com/ArashdeepSinghMaan/TIAGo-Mobile-Base" target="_blank">
+          TIAGo Robot Base Configuration in ROS2
+        </a>
+      </h3>
+      <p>Customized TIAGo robot’s URDF/Xacro to operate only the base (excluding arm and torso) for differential-drive navigation experiments.</p>
+      <ul>
+        <li>⚙️ Rebuilt simplified URDF for base-only operation.</li>
+        <li>🏗️ Tested integration with Nav2 and SLAM for indoor navigation.</li>
+      </ul>
+    </article>
+
+    <!-- Project 9 -->
+    <article class="project">
+      <h3>
+        <a href="https://github.com/ArashdeepSinghMaan/Machine-Learning/tree/main/Designing%20a%20Light-Weight%20CNN%20based%20Model%20%20for%20Crop%20Disease%20Detection" target="_blank">
+          Lightweight CNN for Crop Disease Detection
+        </a>
+      </h3>
+      <p>Designed a MobileNetV3-inspired CNN model optimized for real-time agricultural disease detection on edge devices.</p>
+      <ul>
+        <li>🌱 Achieved high accuracy with minimal model size.</li>
+        <li>📱 Deployed on mobile hardware for field testing.</li>
+      </ul>
+    </article>
+
+    <!-- Banner -->
+    <img src="images/portfolio-banner.jpg" alt="Portfolio Banner" style="width:100%; max-width:900px; display:block; margin-top:2rem; border-radius:10px;">
   </section>
-      <!-- Sample image banner; place your image in an "images" folder in your repository -->
-      <img src="images/portfolio-banner.jpg" alt="Portfolio Banner" style="width:100%; max-width:900px; display:block; margin-top:1rem;">
-    </section>
 
-<section id="profiles">
-  <h2>Connect With Me</h2>
-  <ul class="social-profiles">
-    <li>
-      <a href="https://github.com/ArashdeepSinghMaan">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
-        GitHub
+
+      
+   
+
+<section id="profiles" style="padding:3rem 1rem; text-align:center; background:#f8f9fa;">
+  <h2 style="font-size:2rem; color:#0b3d91; margin-bottom:1.5rem;">Connect With Me</h2>
+
+  <ul class="social-profiles" style="list-style:none; padding:0; display:flex; justify-content:center; gap:2rem; flex-wrap:wrap;">
+    
+    <li style="display:flex; flex-direction:column; align-items:center;">
+      <a href="https://github.com/ArashdeepSinghMaan" target="_blank" 
+         style="text-decoration:none; color:#333; transition:transform 0.3s, box-shadow 0.3s;">
+        <div style="background:#fff; border-radius:50%; padding:1rem; box-shadow:0 4px 12px rgba(0,0,0,0.1); transition:all 0.3s;">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
+               alt="GitHub" style="width:60px; height:60px;">
+        </div>
+        <span style="margin-top:0.5rem; font-weight:600;">GitHub</span>
       </a>
     </li>
-    <li>
-      <a href="https://www.linkedin.com/in/arashdeep-singh-7a8b631a5/">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
-        LinkedIn
+
+    <li style="display:flex; flex-direction:column; align-items:center;">
+      <a href="https://www.linkedin.com/in/arashdeep-singh-7a8b631a5/" target="_blank" 
+         style="text-decoration:none; color:#333; transition:transform 0.3s, box-shadow 0.3s;">
+        <div style="background:#fff; border-radius:50%; padding:1rem; box-shadow:0 4px 12px rgba(0,0,0,0.1); transition:all 0.3s;">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
+               alt="LinkedIn" style="width:60px; height:60px;">
+        </div>
+        <span style="margin-top:0.5rem; font-weight:600;">LinkedIn</span>
       </a>
     </li>
-    <li>
-      <a href="https://twitter.com/yourusername" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" />
-        Twitter
+
+    <li style="display:flex; flex-direction:column; align-items:center;">
+      <a href="https://twitter.com/yourusername" target="_blank" 
+         style="text-decoration:none; color:#333; transition:transform 0.3s, box-shadow 0.3s;">
+        <div style="background:#fff; border-radius:50%; padding:1rem; box-shadow:0 4px 12px rgba(0,0,0,0.1); transition:all 0.3s;">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" 
+               alt="Twitter" style="width:60px; height:60px;">
+        </div>
+        <span style="margin-top:0.5rem; font-weight:600;">Twitter</span>
       </a>
     </li>
-    <!-- Add more if needed -->
   </ul>
+
+  <style>
+    /* Hover animation for all profile links */
+    #profiles a:hover div {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    #profiles a:hover span {
+      color: #0b3d91;
+    }
+  </style>
 </section>
+
 
   </main>
 
